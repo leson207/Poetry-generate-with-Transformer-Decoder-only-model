@@ -1,7 +1,7 @@
 import tensorflow as tf
 from datasets import load_dataset
 from transformers import AutoTokenizer
-from Decoder_Only_Struture import Transformer
+from Decoder_with_pretrained_embedding import Transformer
 from Post_process_with_gpt2_tokenizer import Beam_search
 from Pre_process_with_gpt2_tokenizer import process_data, batched_data
 
